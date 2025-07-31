@@ -1,0 +1,71 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, footer {
+  background-color: #ffe7c2;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 80px;
+}
+
+/* Enlaces */
+a {
+  text-decoration: none;
+  color: #c4452e;
+}
+a:hover {
+  color: #e67300;
+}
+a:visited {
+  color: #804000;
+}
+
+/* Categorías y recetas */
+.categorias ul, nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recetas-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Botón */
+.boton {
+  display: inline-block;
+  background-color: #c4452e;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.boton:hover {
+  background-color: #e67300;
+}
+
+/* Formulario */
+form {
+  padding: 20px;
+}
+form input, form textarea {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+}
+button:hover {
+  background-color: #ccc;
+}
+
+/* Comentarios */
+ /* Sección de recetas destacadas organizada con flexbox */
